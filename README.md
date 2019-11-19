@@ -1,7 +1,6 @@
 # SeleniumFrameworkUsingJava
 
-Selenium test automation framework project on a demo e-commerce website "https://demo.nopcommerce.com/" using Java, Maven, TestNG and POM
-The test-driven development and behavior-driviern development agile testing methods are also used.
+Selenium test automation framework project on a demo e-commerce website "https://demo.nopcommerce.com/" using Java, Maven, TestNG and POM.
 
 # Tech stack:
 - Programming language: Java.

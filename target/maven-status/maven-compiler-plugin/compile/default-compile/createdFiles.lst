@@ -1,0 +1,17 @@
+pages\ShoppingCartPage.class
+pages\ProductDetailsPage.class
+pages\EmailPage.class
+pages\WishListPage.class
+pages\HomePage.class
+pages\SearchProductPage.class
+pages\ContactUsPage.class
+pages\ProductReviewPage.class
+pages\CompareProductsPage.class
+pages\FirefoxDriverDemo.class
+pages\Loginpage.class
+pages\ChromeDriverDemo.class
+pages\CheckOutPage.class
+pages\PageBase.class
+pages\OrderDetailsPage.class
+pages\UserRegistrationPage.class
+pages\MyAccountPage.class

@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 10.04 s <<< FAILURE! - in TestSuite
+UserSearchesProduct(tests.AddProductToShppoingCartTest)  Time elapsed: 0.241 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddProductToShppoingCartTest.UserSearchesProduct(AddProductToShppoingCartTest.java:20)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WrapsElement
+	at tests.AddProductToShppoingCartTest.UserSearchesProduct(AddProductToShppoingCartTest.java:20)
+
+UserAddsToCart(tests.AddProductToShppoingCartTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddProductToShppoingCartTest.UserAddsToCart(AddProductToShppoingCartTest.java:32)
+
+UserRemovesFromCart(tests.AddProductToShppoingCartTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddProductToShppoingCartTest.UserRemovesFromCart(AddProductToShppoingCartTest.java:40)
+
+UserComapresProducts(tests.AddToCompareTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddToCompareTest.UserComapresProducts(AddToCompareTest.java:23)
+
+UserClearsTable(tests.AddToCompareTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.AddToCompareTest.UserClearsTable(AddToCompareTest.java:53)
+
+userSearchesProduct(tests.AddToWishListTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddToWishListTest.userSearchesProduct(AddToWishListTest.java:20)
+
+UserAddsToWishList(tests.AddToWishListTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.AddToWishListTest.UserAddsToWishList(AddToWishListTest.java:32)
+
+userOpensContactUs(tests.ContactUsTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.ContactUsTest.userOpensContactUs(ContactUsTest.java:30)
+

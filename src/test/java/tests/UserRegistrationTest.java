@@ -19,19 +19,22 @@ public class UserRegistrationTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.openRegisterationPage();
 		registerObject = new UserRegistrationPage(driver);
-		registerObject.userRegisteration("Joe", "Jack", "test6@email.com", "1254789547");
+		registerObject.userRegisteration("Joe", "Jack", "test65@email.com", "1254789547");
 		assertTrue(registerObject.registerComplete.isDisplayed());
 	}
 	
 	@Test(dependsOnMethods = "userRegitsersSuccessfully")
-	public void userLogout() {
+	public void userLogout() throws InterruptedException {
+		Thread.sleep(2000);
 		registerObject.userLogout();
 	}
 	
 	@Test(dependsOnMethods = "userLogout")
-	public void userLogin() {
+	public void userLogin() throws InterruptedException {
+		Thread.sleep(2000);
 		homeObject.openLoginpage();
 		loginObject = new Loginpage(driver);
+		Thread.sleep(2000);
 		loginObject.userLogin("test4@email.com", "1254789547");
 		assertTrue(registerObject.logoutLink.isDisplayed());
 	}

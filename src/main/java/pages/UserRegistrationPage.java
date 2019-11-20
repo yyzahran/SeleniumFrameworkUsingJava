@@ -27,7 +27,7 @@ public class UserRegistrationPage extends PageBase {
 	WebElement registerBtn;
 	@FindBy(xpath = "//div[@class='result']")
 	public WebElement registerComplete;
-	@FindBy(xpath = "//a[@class='ico-logout']")
+	@FindBy(css = "a.ico-logout")
 	public WebElement logoutLink;
 	
 	

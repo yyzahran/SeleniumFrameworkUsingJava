@@ -9,6 +9,10 @@ public class PropertiesReader {
 	// Reads and loads the "userdatsa.properties" file
 	public static Properties userData = loadProperties("C:\\Users\\youss\\eclipse-workspace\\taf\\src\\main\\java\\properties\\userdata.properties");
 
+	// Loading Sauce Labs data
+	public static Properties sauceLabsData = loadProperties("C:\\Users\\youss\\eclipse-workspace\\taf\\"
+			+ "src\\main\\java\\properties\\SauceLabsUser.properties");
+	
 	public static Properties loadProperties(String path) {
 		Properties pro = new Properties();
 		// Stream for reading file

@@ -3,6 +3,7 @@
 	<parameter name="browser" value="chrome"></parameter>
 	<test name="regression test" preserve-order="true">
 		<classes>
+			<class name="tests.UserRegistrationTestWithDDTAndJavaFaker" />
 			<class name="tests.AddProductToShppoingCartTest" />
 			<class name="tests.AddToCompareTest" />
 			<class name="tests.AddToWishListTest" />
